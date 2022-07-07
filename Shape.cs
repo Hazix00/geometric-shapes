@@ -16,12 +16,12 @@ namespace geometricshapes
         /// Shape Position Array (x,y,z)
         /// </summary>
         /// <value></value>
-        public int[] Position { get; } = new int[3];
+        public float[] Position { get; } = new float[3];
         /// <summary>
         /// Shape Rotation Array (x,y,z)
         /// </summary>
         /// <value></value>
-        public int[] Rotation { get; } = new int[3];
+        public float[] Rotation { get; } = new float[3];
         public float Scale { get; set; }
 
         public Shape()
